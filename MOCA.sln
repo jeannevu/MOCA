@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOCA", "MOCA.csproj", "{A53B3744-6256-B656-5A04-C61161C30082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOCA.Editor", "MOCA.Editor.csproj", "{E0B64DD3-E264-AA4D-C764-6522B06988C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A53B3744-6256-B656-5A04-C61161C30082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53B3744-6256-B656-5A04-C61161C30082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53B3744-6256-B656-5A04-C61161C30082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53B3744-6256-B656-5A04-C61161C30082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B64DD3-E264-AA4D-C764-6522B06988C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B64DD3-E264-AA4D-C764-6522B06988C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B64DD3-E264-AA4D-C764-6522B06988C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B64DD3-E264-AA4D-C764-6522B06988C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
