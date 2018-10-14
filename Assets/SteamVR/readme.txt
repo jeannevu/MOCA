@@ -1,4 +1,4 @@
-﻿# SteamVR Unity Plugin - v2.0.1
+﻿# SteamVR Unity Plugin - v2.0
 
 Copyright (c) Valve Corporation, All rights reserved.
 

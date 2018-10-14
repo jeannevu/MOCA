@@ -236,6 +236,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\breaker.cs" />
+    <Compile Include="Assets\die.cs" />
     <Compile Include="Assets\DrawLine.cs" />
     <Compile Include="Assets\Scripts\arrowBlast.cs" />
     <Compile Include="Assets\Scripts\clapNow.cs" />
