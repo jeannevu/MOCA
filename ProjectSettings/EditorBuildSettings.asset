@@ -4,4 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Visuospatial.unity
+    guid: 06936788d5e34424ead36f802ac44163
+  - enabled: 1
+    path: Assets/Scenes/Recog..unity
+    guid: 0e8ccc9c9229e3147ab0bb67abc2b2f0
+  - enabled: 1
+    path: Assets/Scenes/Memory 1.unity
+    guid: 7cc8bef650bcef74d92b93135082e24d
+  - enabled: 1
+    path: Assets/Scenes/Attention.unity
+    guid: 36ad92308d44639479e68f2b420d5f47
+  - enabled: 1
+    path: Assets/Scenes/Abstraction.unity
+    guid: a4be990c2d60a2d43bd6b62e43e3064b
+  - enabled: 1
+    path: Assets/Scenes/Mario Kart.unity
+    guid: 7fed2c0e07d56fa48819fa0d20e9cf11

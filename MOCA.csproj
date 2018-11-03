@@ -235,10 +235,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\abstraction.cs" />
     <Compile Include="Assets\breaker.cs" />
+    <Compile Include="Assets\collector.cs" />
     <Compile Include="Assets\die.cs" />
     <Compile Include="Assets\DrawLine.cs" />
     <Compile Include="Assets\Scripts\arrowBlast.cs" />
+    <Compile Include="Assets\Scripts\AttentionNumbers.cs" />
     <Compile Include="Assets\Scripts\clapNow.cs" />
     <Compile Include="Assets\Scripts\clapRight.cs" />
     <Compile Include="Assets\Scripts\disappear.cs" />
@@ -246,7 +249,9 @@
     <Compile Include="Assets\Scripts\intoBox.cs" />
     <Compile Include="Assets\Scripts\matchingAnimals.cs" />
     <Compile Include="Assets\Scripts\README.cs" />
+    <Compile Include="Assets\Scripts\sceneToggle.cs" />
     <Compile Include="Assets\Scripts\Test3.cs" />
+    <Compile Include="Assets\Scripts\TextDisappear.cs" />
     <Compile Include="Assets\Scripts\touchingOrder.cs" />
     <Compile Include="Assets\Scripts\viveCursor.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
@@ -667,6 +672,7 @@
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseDefines.cs" />
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
+    <Compile Include="Assets\wordMatching.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />

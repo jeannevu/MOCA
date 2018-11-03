@@ -1,34 +1,69 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using Valve.VR;
+
 
 public class DrawLine : MonoBehaviour {
 
     private LineRenderer lineRenderer;
     private float counter;
     private float distance;
+    public float startTime;
 
-    public Transform origin; //origin of line
-    public Transform destination;
+    public Vector3 origin; //origin of line
+    public Vector3 destination;
+
+    public int count;
 
     public float lineDrawSpeed = 6f;
 
     public GameObject controllerLeft;
     public GameObject controllerRight;
 
-	// Use this for initialization
-	void Start () {
+
+
+    // Use this for initialization
+    void Start () {
+
+        /*
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.SetPosition(0, origin.position);
         lineRenderer.SetWidth(.45f, .45f); //._f [starting width], ._f [ending width]
 
         distance = Vector3.Distance(origin.position, destination.position);
-		
+		*/
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if(counter<distance)
+
+        if(count == 0 && origin !=null)
+        {
+            count++;
+        }
+  
+        /*
+        if (press button)
+        {
+            Vector3 origin = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+            startTime = Time.time;
+        }
+
+        float currTime = Time.time;
+        if(currTime >= startTime + 5.0f)
+        {
+            Vector3 destination = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+            Vector3 origin = destination;
+        }
+        else if(let go of button)
+        {
+            Vector3 destination = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+        }*/
+
+        /*
+        if (counter<distance)
         {
             counter += .1f / lineDrawSpeed;
             float x = Mathf.Lerp(0, distance, counter);
@@ -40,5 +75,14 @@ public class DrawLine : MonoBehaviour {
             lineRenderer.SetPosition(1, pointAlongLine); 
 
         }
-	}
+        */
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.name == "Origin")
+        {
+            origin = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+        }
+    }
 }
